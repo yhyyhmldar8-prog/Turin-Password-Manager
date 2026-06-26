@@ -1,5 +1,6 @@
 import string
 import random
+password = ""
 b = 0
 while True:
     for i in range(1):
@@ -9,7 +10,8 @@ while True:
     for i in range(1):
         a = random.choice([num,sma,bi])
         b = b + 1
-        print(a)
+        password += a
     if (b == 8):
         break
+print(password)
 
