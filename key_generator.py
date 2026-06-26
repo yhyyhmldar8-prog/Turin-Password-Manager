@@ -15,7 +15,4 @@ while True:
     if (b == c):
         break
 print(password)
-***passworsdjjsjdjjsjdjs
-
-
-***
+print("password created")
